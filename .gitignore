@@ -1,0 +1,74 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Logs ###
+*.log
+logs/
+spring-shell.log*
+
+### Environment Variables ###
+.env
+.env.local
+.env.*.local
+
+### macOS ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### Windows ###
+Thumbs.db
+ehthumbs.db
+
+### Editor Backup Files ###
+*.swp
+*.swo
+*~
+.flymake_*
+
+### Gradle ###
+.gradle/
+gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+### Misc ###
+/.classpath
+/.project
+/.settings/
+*.class
+*.jar
+*.jar.original
+!**/src/main/**/build/
+!**/src/test/**/build/
